@@ -5,7 +5,7 @@ import sys
 import signal
 from player import Player
 
-server = "192.168.31.166"  # Adjust for your local network IP
+server = ""  # Adjust for your local network IP
 port = 5555
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
